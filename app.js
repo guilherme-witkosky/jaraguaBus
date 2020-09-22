@@ -11,7 +11,7 @@ const sql = mysql.createConnection({
     port: 3306
 });
 
-sql.query("use nodemysql");
+sql.query("use teste");
 
 app.use(bodyParser.urlencoded({ extended: false }));
 
